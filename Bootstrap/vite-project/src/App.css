@@ -1,0 +1,18 @@
+
+
+
+.con{
+
+    padding: 7% 5% 2% 10%;
+    border: 1px solid black;
+    width: 80%;
+    height: 350px;
+    margin-top: 1pc;
+    margin-left: -2pc;
+    border-radius: 20px;
+}
+
+button.btn.btn-success {
+    padding: 5px 25px;
+    margin-left: 10pc;
+}

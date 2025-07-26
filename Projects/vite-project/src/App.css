@@ -1,0 +1,52 @@
+.heading h1{
+    /* background-color: aqua; */
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.clock{
+
+    text-align: center;
+   
+    
+    }
+    .clock h1{
+    
+      font-size: 50px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: #333;
+      font-weight: 500;
+    }
+    
+    .clock h2{
+    
+      /* font-size: 20px; */
+      font-family: 'Franklin Gothic Medium';
+      color: #333;
+    
+    }
+    
+    
+    .Time{
+    
+      font-size: 50px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: #333;
+      font-weight: 500;
+      text-align: center;
+    
+    }
+    
+ 
+
+
+    .btons{
+
+      padding: 10px 25px;
+      border-radius: 10px;
+      border: 1px solid black;
+      background-color: gold;
+      font-family: serif;
+      margin: 8px;
+
+    }
