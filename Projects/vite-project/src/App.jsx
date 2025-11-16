@@ -11,6 +11,7 @@ import Item from "./components/Item";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import Counter from "./components/Counter";
+import NotFound from "./components/404.jsx";
 
 function App() {
   let fooditems = [
@@ -29,6 +30,7 @@ function App() {
 
       <div className="container my-4">
         <Routes>
+          <Route path="*" element={<NotFound />} />
           <Route path="/" element={<Home />} />
           <Route path="/time" element={<Time />} />
           <Route path="/clock" element={<Clock />} />

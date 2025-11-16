@@ -9,6 +9,7 @@ const Counter = ({ handlerfun, children, deletefun }) => {
 
       <button className="btons" onClick={deletefun}>
         Delete
+        
       </button>
       {children}
       <h1></h1>

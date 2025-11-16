@@ -23,6 +23,7 @@ function Home() {
       <center>
         <h1>{count}</h1>
         <Counter deletefun={deletefun} handlerfun={handlerfun}>
+            
           <h1>Props, useState, and props.children</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           <p>Best of luck!</p>
